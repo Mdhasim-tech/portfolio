@@ -1,0 +1,85 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+  background-color: #222;
+  color: white;
+  position: relative;
+}
+
+.logo a{
+  color: inherit;        /* Takes the color of parent, e.g. white */
+  text-decoration: none; /* Removes underline */
+  font-weight: bold;     /* Optional, keep the bold look */
+}
+
+/* Menu links - default horizontal */
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navLinks li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Hamburger icon - hidden on desktop */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+  width: 25px;
+}
+
+.hamburger span {
+  height: 3px;
+  background: white;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+/* Animate hamburger when active */
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  /* Hide links by default */
+  .navLinks {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #222;
+    flex-direction: column;
+    width: 150px;
+    padding: 10px 0;
+    display: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+  }
+
+  /* Show menu when open */
+  .navLinks.open {
+    display: flex;
+    z-index: 1;
+  }
+
+  .navLinks li {
+    padding: 10px 20px;
+  }
+}

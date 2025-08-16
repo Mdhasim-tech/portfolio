@@ -1,0 +1,52 @@
+/* Contact Page Styles */
+.contact-page {
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.contact-page h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.contact-page p {
+  line-height: 1.6;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.contact-details {
+  margin-top: 25px;
+  padding: 20px;
+  border-top: 2px solid #f0f0f0;
+}
+
+.contact-details p {
+  font-size: 1.05rem;
+  margin: 12px 0;
+}
+
+.contact-details strong {
+  color: #222;
+  font-weight: 600;
+}
+
+.contact-details a {
+  color: #0073e6;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.contact-details a:hover {
+  color: #005bb5;
+  text-decoration: underline;
+}

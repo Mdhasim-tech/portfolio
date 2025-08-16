@@ -1,0 +1,36 @@
+.footer {
+  background: #222;
+  color: White;
+  padding: 25px 20px;
+  text-align: center;
+  margin-top: 40px;
+
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+.footer-links {
+  margin-top: 12px;
+}
+
+.footer-links a {
+  margin: 0 12px;
+  color: #f1f1f1;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: #0073e6;
+  text-decoration: underline;
+}
