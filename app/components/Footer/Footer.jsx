@@ -10,7 +10,7 @@ export default function Footer() {
           <a href="mailto:mdhasim1923070@gmail.com">Email</a>
           <a href="tel:+7982323227">Phone</a>
           <a
-            href="www.linkedin.com/in/md-hasim-81274b255"
+            href="https://www.linkedin.com/in/md-hasim-81274b255"
             target="_blank"
             rel="noopener noreferrer"
           >
