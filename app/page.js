@@ -36,7 +36,7 @@ export default function Home() {
             <video
               controls
               preload="metadata"
-              poster="/emotion.JPG"
+              poster="/emotion.PNG"
             >
               <source src="/emotion-detector.mp4" type="video/mp4" />
               Your browser does not support the video tag.
